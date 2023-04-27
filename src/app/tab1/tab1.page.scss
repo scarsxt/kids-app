@@ -1,0 +1,38 @@
+#app_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lessons{
+    display: flex;
+    flex-direction: row;
+}
+
+#lessons img{
+    width: 50%;
+    height: auto;
+}
+
+#more_lessons{
+    display: flex;
+    flex-direction: column;
+}
+
+.extra{
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
